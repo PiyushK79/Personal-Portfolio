@@ -13,11 +13,10 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-// import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "../components/ui/button";
 import { Menu } from "lucide-react";
-// import { ModeToggle } from "./mode-toggle";
-// import { AlignJustify } from "lucide-react";
+import Logo from "../assets/Logo6.png";
+
 
 
 interface RouteProps {
@@ -55,7 +54,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-semibold text-3xl sm:text-xl flex"
             >
-              <img src="../public/Logo6.png" className="lg:w-20 md:w-20 sm:w-14 invert" alt="" />
+              <img src={Logo} className="lg:w-20 md:w-20 sm:w-14 invert" alt="" />
             </a>
           </NavigationMenuItem>
 
