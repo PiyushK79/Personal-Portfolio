@@ -1,4 +1,4 @@
-import React from "react";
+
 import projectstar from "../assets/starsvg.svg";
 import { Box, Github, LayoutDashboard, Linkedin, Twitter } from "lucide-react";
 import CustomLogo from "./CustomLogo";

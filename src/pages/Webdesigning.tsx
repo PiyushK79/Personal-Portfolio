@@ -1,11 +1,11 @@
-import React from 'react'
+
 import projectstar from '../assets/starsvg.svg'
 import CustomLogo from './CustomLogo'
 import cocacola from "../assets/cocacola.png"
 import splinewings from "../assets/splinewings.png"
 import spiderman from "../assets/spiderman.png"
 import vacation from "../assets/vacation.png"
-import grow from "../assets/grow.png"
+// import grow from "../assets/grow.png"
 import inspired from "../assets/inspired.png"
 import ecommerce from "../assets/ecommerce.png"
 

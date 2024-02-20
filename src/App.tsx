@@ -19,7 +19,7 @@ import Services from "./pages/Services";
 import Loader from "./pages/Loader";
 
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css'; 
 // ..
 AOS.init({
   duration:1300,
@@ -45,14 +45,14 @@ function App() {
        <Loader />
       ) : (
         <>
-      {/* <AnimatedCursor
+      <AnimatedCursor
     innerSize={12}
     outerSize={12}
     color='255,255,255'
     outerAlpha={0.2}
     innerScale={0.7}
     outerScale={5}
-    /> */}
+    />
       <Navbar />
       <BrowserRouter>
         <Routes>

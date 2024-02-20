@@ -1,4 +1,4 @@
-import React from "react";
+
 import star from "../assets/starsvg.svg";
 import staricon from "../assets/icon2.png";
 import netflix from "../assets/netflix.jpeg";

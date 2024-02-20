@@ -7,7 +7,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [reply, setReply] = useState({success:false});
+  const [reply] = useState({success:false});
 
 
   const form = useRef<HTMLFormElement>(null);
@@ -31,7 +31,7 @@ const Contact = () => {
       setName('');
       setEmail('');
       setMessage('');
-      
+
       reply.success = true;
 
   };

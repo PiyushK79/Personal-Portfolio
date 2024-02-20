@@ -1,11 +1,11 @@
-import React from "react";
+
 import star from "../assets/starsvg.svg";
 import staricon from "../assets/icon2.png";
 import stopwatch0 from "../assets/stopwatch1.png"
 import stopwatch1 from "../assets/stopwatch0.png"
 import stopwatch2 from "../assets/stopwatch2.png"
 import stopwatch3 from "../assets/stopwatch3.png"
-import stopwatch4 from "../assets/stopwatch4.png"
+// import stopwatch4 from "../assets/stopwatch4.png"
 
 
 const Cryptohunt = () => {

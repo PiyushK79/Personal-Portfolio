@@ -1,4 +1,4 @@
-import React from "react";
+
 import star from "../assets/starsvg.svg";
 import staricon from "../assets/icon2.png";
 import wings0 from "../assets/wings2.jpeg"

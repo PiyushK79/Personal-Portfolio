@@ -1,4 +1,4 @@
-import React from "react";
+
 import photo from "../assets/profile-pic (14).png";
 import { Linkedin, Github, Twitter, Dribbble } from "lucide-react";
 import star from "../assets/starsvg.svg";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../App.css";
 import photo from "../assets/profile-pic (22) (1).png";
 import Marquee from "react-fast-marquee";
