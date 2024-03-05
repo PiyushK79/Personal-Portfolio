@@ -31,7 +31,10 @@ AOS.init({
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
+<<<<<<< HEAD
   
+=======
+>>>>>>> fe44ff634177eda738638c36d6ce5c954f6508b7
 
   useEffect(() => {
     setScreenLoading(true);
