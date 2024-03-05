@@ -61,7 +61,7 @@ const Homepage1 = () => {
             direction="left"
             gradient
             gradientColor=""
-            speed={120}
+            speed={100}
             gradientWidth={30}
             pauseOnHover
           >
