@@ -31,6 +31,9 @@ AOS.init({
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  
 
   useEffect(() => {
     setScreenLoading(true);
@@ -45,6 +48,7 @@ function App() {
        <Loader />
       ) : (
         <>
+        {window.innerWidth > 1200 ?
       <AnimatedCursor
     innerSize={12}
     outerSize={12}
@@ -53,6 +57,14 @@ function App() {
     innerScale={0.7}
     outerScale={5}
     />
+    :
+    <AnimatedCursor
+    innerSize={0}
+    outerSize={0}
+    outerAlpha={0}
+    innerScale={0}
+    outerScale={0}
+    />  }
       <Navbar />
       <BrowserRouter>
         <Routes>

@@ -120,12 +120,12 @@ const Credentials = () => {
       {/* right section */}
       <div className="lg:w-2/3 lg:mx-20 md:mx-16 sm:mx-8 sm:mt-8">
         {/* about */}
-        <div data-aos="fade-left" className="mb-14">
+        <div data-aos="fade-right" className="mb-14">
           {/* <h2 className="text-lg font-semibold underline">ABOUT ME</h2> */}
           <div className="col-span-2 lg:text-6xl md:text-4xl sm:text-3xl flex font-extrabold justify-center items-center text-center">
-            <img className="lg:w-20 md:w-16 sm:w-12" src={star} alt="" />
+            <img className="lg:w-20 md:w-16 sm:w-10" src={star} alt="" />
             Self Summary
-            <img className="lg:w-20 md:w-16 sm:w-12" src={star} alt="" />
+            <img className="lg:w-20 md:w-16 sm:w-10" src={star} alt="" />
           </div>
           <p className="text-md py-6 break-words lg:text-justify md:text-justify">
             I am a passionate web designer and developer with experience in MERN
@@ -137,7 +137,7 @@ const Credentials = () => {
         </div>
 
         {/* Education */}
-        <div data-aos="fade-left" className="my-5">
+        <div data-aos="fade-right" className="my-5">
           <h2 className="text-xl font-semibold underline">EDUCATION</h2>
           <div className="py-8">
             <p className="text-sm text-zinc-400">2020 - 2024</p>
@@ -164,11 +164,11 @@ const Credentials = () => {
         </div>
 
         {/* Experience */}
-        <div className="my-5">
-          <h2 data-aos="fade-left" className="text-xl font-semibold underline">
+        <div  data-aos="fade-right" className="my-5">
+          <h2 className="text-xl font-semibold underline">
             EXPERIENCE
           </h2>
-          <div data-aos="fade-left" className="py-8">
+          <div className="py-8">
             <p className="text-sm text-zinc-400">JUNE 2023 - JULY 2023</p>
             <p className="text-lg text-orange-500">Web development Intern</p>
             <p className="text-sm text-zinc-400">
@@ -193,7 +193,7 @@ const Credentials = () => {
             </ul>
           </div>
 
-          <div data-aos="fade-left" className="py-5">
+          <div data-aos="fade-right" className="py-5">
             <p className="text-sm text-zinc-400">APRIL 2023 - MAY 2023</p>
             <p className="text-lg text-orange-500">
               Frontend development Intern
@@ -215,7 +215,7 @@ const Credentials = () => {
         </div>
 
         {/* Skills */}
-        <div data-aos="fade-left" id="skills" className="">
+        <div data-aos="fade-right" id="skills" className="">
           <h2 className="text-xl font-semibold mb-2 underline">SKILLS</h2>
           <div className="grid lg:grid-rows-5 md:grid-rows-2 grid-cols-2 grid-flow-row">
             {skills.map((item, index) => (
