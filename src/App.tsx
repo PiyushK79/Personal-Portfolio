@@ -31,9 +31,6 @@ AOS.init({
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  
 
   useEffect(() => {
     setScreenLoading(true);
