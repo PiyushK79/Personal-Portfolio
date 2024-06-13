@@ -179,7 +179,7 @@ const Kanban = () => {
         <div className="flex lg:gap-5 md:gap-5 sm:gap-2">
           {/* prev button */}
           <a
-            href="/cryptohunt"
+            href="/netflix"
             className="lg:text-3xl  md:text-2xl sm:text-lg border rounded-2xl lg:p-7 md:p-7 sm:p-4 mt-10  hover:bg-gray-200 hover:text-black hover:ease-in-out duration-300"
           >
             Prev Project

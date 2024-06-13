@@ -2,7 +2,7 @@
 import projectstar from '../assets/projectstar.svg';
 import CustomLogo from './CustomLogo'
 import cryptohunt from "../assets/cryptohunt2.jpeg"
-// import netflix from "../assets/netflix.jpeg"
+import netflix from "../assets/netflix.jpeg"
 import wings from "../assets/wings.jpeg"
 import panorama from "../assets/panorama.jpeg"
 import kanban from "../assets/kanban2.jpeg"
@@ -23,12 +23,12 @@ const Projects = () => {
       name: "Wings Website",
       link: "/wings",
     },
-    // {
-    //   img: netflix,
-    //   type: "ENTERTAINMENT",
-    //   name: "Netflix Clone",
-    //   link: "/netflix",
-    // },
+    {
+      img: netflix,
+      type: "ENTERTAINMENT",
+      name: "Netflix Clone",
+      link: "/netflix",
+    },
     
     {
       img: kanban,

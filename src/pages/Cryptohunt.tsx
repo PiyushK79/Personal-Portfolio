@@ -202,7 +202,7 @@ const Cryptohunt = () => {
 
         {/* next button */}
         <a
-          href="/kanban" 
+          href="/netflix" 
           className="lg:text-3xl  md:text-2xl sm:text-lg border rounded-2xl p-7 mt-10  hover:bg-gray-200 hover:text-black hover:ease-in-out duration-300"
         >
           Next Project
