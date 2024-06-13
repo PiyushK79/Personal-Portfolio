@@ -29,12 +29,12 @@ const Netflix = () => {
 
          {/* live demo button */}
         <a
-          href=""
-          // target="_blank"
+          href="https://netflix-reactjs-47260.web.app/"
+          target="_blank"
           data-aos="fade-in"
           className="lg:text-lg md:text-sm sm:text-md border-2 lg:rounded-xl md:rounded-lg sm:rounded-md lg:p-4 md:p-3 sm:p-3 lg:m-8 md:m-6 sm:mb-5 hover:bg-gray-200 hover:text-black hover:font-medium hover:ease-in-out duration-300 text-center"
         >
-          Debugging
+          Live Project
         </a>
 
         {/* heroimg */}
